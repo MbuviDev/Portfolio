@@ -9,7 +9,7 @@ function App() {
         <div className="container mx-auto px-4">
           <nav className="flex items-center justify-between flex-wrap py-4">
             <div className="flex items-center flex-shrink-0 text-gray-900">
-              <span className="font-semibold text-xl">Your Name</span>
+              <span className="font-semibold text-xl">Meshack Mbuvi</span>
             </div>
             <div className="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
               <div className="text-sm lg:flex-grow">
@@ -42,14 +42,14 @@ function App() {
             Welcome to My Portfolio!
           </h1>
           <p className="text-xl text-center text-gray-700">
-            Here, you can showcase your skills, projects, and more.
+            Am a Software Engineer .
           </p>
         </div>
       </section>
 
       <section id="about" className="bg-white py-20" />
         {/* <div className="container mx-auto px-4" > */}
-          <h2 className="text-3xl font-bold"> he</h2>
+          <h2 className="text-3xl font-bold">Meshack Mbuvi</h2>
            
       </div >  
   );
