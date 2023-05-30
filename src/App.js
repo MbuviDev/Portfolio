@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { Route, Router } from 'react-router-dom';
+import About from './components/About/About';
 
 function App() {
   return (
@@ -55,8 +57,13 @@ function App() {
 
 
     <div>
+      <Router>
+        <Route path='/' Component={About}/>
+          
+        <Route />
+      </Router>
 
-      
+
     </div>
   );
 }
