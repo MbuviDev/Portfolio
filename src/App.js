@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { Route, Router } from 'react-router-dom';
+import { Route, Routes } from 'react-router-dom';
 import About from './components/About/About';
 
 function App() {
@@ -57,11 +57,11 @@ function App() {
 
 
     <div>
-      <Router>
+        <Routes >
         <Route path='/' Component={About}/>
           
         <Route />
-      </Router>
+        </Routes>
 
 
     </div>
