@@ -1,10 +1,16 @@
 import React from "react";
 
 function Projects () {
+
+    const ProjectData =[
+        {
+            
+        }
+    ]
    
     return (
         <div>
-            <h1>Projects I have been able to accomplish</h1>
+            <h1>Projects</h1>
 
 
         </div>
