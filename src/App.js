@@ -1,7 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import { Route, Routes } from 'react-router-dom';
 import About from './components/About/About';
+import Projects from './Projects/Projects';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -58,9 +59,9 @@ function App() {
 
     <div>
         <Routes >
-        <Route path='/' Component={About}/>
-          
-        <Route />
+        <Route path='/about' element={<About/>}/>
+        <Route path="/project" element={<Projects />} />  
+        <Route path="/contact" element={<Contact/>} />
         </Routes>
 
 

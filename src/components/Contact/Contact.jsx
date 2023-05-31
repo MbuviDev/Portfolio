@@ -4,6 +4,7 @@ function Contact () {
 
     return (
         <div>
+            <div>
             <h4>Contact me:</h4>
           <ul>
             <li>Phone: +2547 68 254 019</li>
@@ -15,6 +16,7 @@ function Contact () {
             <li><a href="https://www.linkedin.com/in/mbuvi-meshack-480027228/"><i className='fa fa-linkedin'></i></a></li>
             <li><a href="https://github.com/MbuviDev"><i className='fa fa-github'></i></a></li>
           </ul>
+          </div>
 
         </div>
     )
